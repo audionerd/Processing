@@ -5,6 +5,13 @@ Syphon Implementation for Processing 2.0
 
 In order to build the library, you need to clone the Java submodule, which contains the JSyphon jar and JNI native libraries.
 
+```bash
+git submodule update --init
+cp -R Processing_2_0 ~/Documents/Processing/libraries/Syphon
+```
+
+Then open Processing and `Import Library -> Syphon`
+
 Submodules can can a bit tricky to use, below you have a couple of references that can be useful:
 
 Chapter in Git Pro book about submodules: http://git-scm.com/book/en/Git-Tools-Submodules
